@@ -20,7 +20,7 @@ const teses = [
 <main className="tese-grid">
         {teses.map((t) => (
           <Link className="card" href={`/teses/${t.slug}`} key={t.ticker}>
-            <span className="tag">AÇÕES</span>
+            <span className="tag">{t.setor}</span>
             <div>
               <p className="card-eyebrow">Tese de investimento</p>
               <h2>{t.nome}</h2>

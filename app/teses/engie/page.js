@@ -1,7 +1,7 @@
 export default function Engie() {
   return (
     <main className="prose-page">
-      <p className="article-meta">AÇÕES · EGIE3</p>
+      <p className="article-meta">ENERGIA · EGIE3</p>
       <h1>Engie Brasil</h1>
       <p style={{fontSize: '14px', color: 'var(--ink-soft)'}}>Por Andressa Luiza Rocha de Figueiredo</p>
 
