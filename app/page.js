@@ -13,7 +13,7 @@ export default function Home() {
         <div className="cover-content">
           <span className="eyebrow">Teses de investimento</span>
           <h1>Análises objetivas, sem enrolação.</h1>
-          <p>Briefings e teses de investimento organizados por ativo — leitura direta, sem recomendação genérica.</p>
+          <p>Teses de investimento fundamentadas em pesquisa e análiseS</p>
         </div>
       </section>
 
