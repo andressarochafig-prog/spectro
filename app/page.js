@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
 export default function Home() {
-  const teses = [
-    { nome: 'WEG', ticker: 'WEGE3', data: 'Jul 2026', slug: 'weg' },
-    { nome: 'Ambev', ticker: 'ABEV3', data: 'Jun 2026', slug: 'ambev' },
-    { nome: 'Engie Brasil', ticker: 'EGIE3', data: 'Mai 2026', slug: 'engie' },
+const teses = [
+    { nome: 'WEG', ticker: 'WEGE3', data: 'Jul 2026', slug: 'weg', setor: 'Industrial' },
+    { nome: 'Ambev', ticker: 'ABEV3', data: 'Jun 2026', slug: 'ambev', setor: 'Consumo' },
+    { nome: 'Engie Brasil', ticker: 'EGIE3', data: 'Mai 2026', slug: 'engie', setor: 'Energia' },
   ];
 
   return (
@@ -12,8 +12,8 @@ export default function Home() {
       <section className="cover">
         <div className="cover-content">
           <span className="eyebrow">Teses de investimento</span>
-          <h1>Análises objetivas, sem enrolação.</h1>
-          <p>Teses de investimento fundamentadas em pesquisa e análiseS</p>
+          <h1>Teses de investimento fundamentadas em pesquisa e análise</h1>
+          <p>Teses de investimento desenvolvidas a partir de demonstrações financeiras, documentos oficiais e análise dos fundamentos de cada empresa</p>
         </div>
       </section>
 
