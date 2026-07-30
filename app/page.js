@@ -12,8 +12,8 @@ const teses = [
       <section className="cover">
         <div className="cover-content">
           <span className="eyebrow">Teses de investimento</span>
-          <h1>Teses de investimento fundamentadas em pesquisa e análise</h1>
-          <p>Teses de investimento desenvolvidas a partir de demonstrações financeiras, documentos oficiais e análise dos fundamentos de cada empresa</p>
+          <h1>SPECTRO</h1>
+          <p>Portfólio das minhas teses de investimento desenvolvidas a partir de demonstrações financeiras, documentos oficiais e análise dos fundamentos de cada empresa</p>
         </div>
       </section>
 
